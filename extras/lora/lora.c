@@ -116,11 +116,6 @@ int lora_begin(long frequency){
 	lora_set_tx_power_pa_boost(17);
 	
 	lora_idle();
-
-  lora_set_coding_rate_4(5);
-	lora_set_spreading_factor(6);
-	lora_set_signal_bandwidth(125E3);
-	lora_set_tx_power_pa_boost(17);
 	
 	return 1;
 	
